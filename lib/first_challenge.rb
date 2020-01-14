@@ -18,19 +18,19 @@ def first_challenge
          {
            :name => "Benvolio",
            :age => "17",
-           :attributes => "worried"
+           :attribute => "worried"
          },
          {
            :name => "Mercutio",
            :age => "18",
-           :attributes => "hot-headed"
+           :attribute => "hot-headed"
          }
-       ]
-     },
+      ]
+    },
     :capulet => {
       :patriarch => {
         :name => "Lord Capulet",
-        :age => "50",
+        :age => "50"
       },
       :matriarch => {
         :name => "Lady Capulet",
@@ -45,12 +45,12 @@ def first_challenge
         {
           :name => "Steven",
           :age => "30",
-          :attributes => "confused"
+          :attribute => "confused"
         },
         {
           :name => "Nurse",
           :age => "44",
-          :attributes => "worried"
+          :attribute => "worried"
         }
       ]
     }
